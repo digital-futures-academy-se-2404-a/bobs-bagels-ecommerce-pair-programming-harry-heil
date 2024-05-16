@@ -11,20 +11,30 @@
 <body>
   <div class="container py-4">
     <div class="container-fluid py-5">
-      <nav class="nav nav-pills nav-justified">
-        <a class="nav-link active" aria-current="page" href="#">Active</a>
-        <a class="nav-link" href="#">Much longer nav link</a>
-        <a class="nav-link" href="#">Link</a>
-        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-      </nav>
+      <div class="row">
+        <div class="col-2">
+          <a class="navbar-brand" href="#">
+            <img src="https://img.freepik.com/premium-vector/bakery-logo-design_260747-392.jpg" alt="Bootstrap" width="100" height="100">
+          </a>
+        </div>
+        <div class="col-10">
+          <nav class="nav nav-pills nav-justified">
+            <a class="nav-link active" aria-current="page" href="#">Active</a>
+            <a class="nav-link" href="#">Much longer nav link</a>
+            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </nav>
+        </div>
+      </div>
+
       <h1 class="display-5 fw-bold">Custom jumbotron</h1>
       <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous
         versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
       <button class="btn btn-primary btn-lg" type="button">Example button</button>
     </div>
     <div class="row p-3 m-5 border rounded">
-      <div class="col">
-        <h1>Bob's Bagels since 1998</h1>
+      <div class="col d-flex align-items-center flex-column justify-content-center">
+        <h1 class="text-start">Bob's Bagels since 1998</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo aspernatur quo cupiditate ullam reiciendis
           doloribus asperiores itaque officiis, repudiandae maiores minima perferendis totam? Amet repellat velit
           exercitationem ducimus. Adipisci, rerum.</p>
